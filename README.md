@@ -1,2 +1,2 @@
 # Leetcode-2024
-A repository to document my leetcode preparation.
+A repository to keep track of my leetcode preparation.
