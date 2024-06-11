@@ -18,7 +18,7 @@ class Solution {
 
     public static void main(String[] args){
       String s = "anagram";
-      String t = "";
+      String t = "nagaram";
       boolean isAnagram = isAnagram(s, t);
       System.out.println(isAnagram);
     }
