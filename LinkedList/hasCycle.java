@@ -12,12 +12,12 @@
  * }
  */
 public class hasCycle {
-    public boolean hasCycle(ListNode head) {
+    public boolean hasCycle(getIntersectionNode head) {
         if(head == null){
             return false;
         }
-        ListNode slow = head;
-        ListNode fast = head.next;
+        getIntersectionNode slow = head;
+        getIntersectionNode fast = head.next;
         while(slow != fast){
             if(fast == null || fast.next == null){
                 return false;

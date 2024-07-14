@@ -16,7 +16,7 @@ class Solution{
     }
 
     public static void main(String[] args){
-        Solution solution = new Solution();
+        hasCycle solution = new hasCycle();
         char[] s = {'h', 'e', 'l', 'l', 'o'};
         System.out.println("reversed string is: "+ solution.reverseString(s));
     }
