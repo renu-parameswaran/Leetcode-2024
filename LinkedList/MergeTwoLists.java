@@ -1,16 +1,16 @@
 // 21. Merge Two Sorted Lists
- class ListNode {
+ class MergeTwoLists {
     int val;
-    ListNode next;
-    ListNode(int val){
+    MergeTwoLists next;
+    MergeTwoLists(int val){
       this.val = val;
       this.next = null;
   }
   }
 class Solution {
-    public static ListNode mergeTwoLists(ListNode list1, ListNode list2){
-        ListNode temp = new ListNode(-1);
-        ListNode res = temp;
+    public static MergeTwoLists mergeTwoLists(MergeTwoLists list1, MergeTwoLists list2){
+        MergeTwoLists temp = new MergeTwoLists(-1);
+        MergeTwoLists res = temp;
         while(list1 != null && list2 != null){
             if(list1.val < list2.val){
                 res.next = list1;
@@ -31,7 +31,7 @@ class Solution {
         return temp.next;
     }
 
-    public static void printList(ListNode head){
+    public static void printList(MergeTwoLists head){
         while(head != null){
             System.out.print(head.val+ "->");
             head = head.next;
@@ -40,14 +40,14 @@ class Solution {
     }
 
     public static void main(String[] args){
-        ListNode list1 = new ListNode(1);
-        list1.next = new ListNode(2);
-        list1.next.next = new ListNode(3);
-        list1.next.next.next = new ListNode(4);
-        ListNode list2 = new ListNode(1);
-        list2.next = new ListNode(3);
-        list2.next.next = new ListNode(4);
-        ListNode mergedHead = mergeTwoLists(list1, list2);
+        MergeTwoLists list1 = new MergeTwoLists(1);
+        list1.next = new MergeTwoLists(2);
+        list1.next.next = new MergeTwoLists(3);
+        list1.next.next.next = new MergeTwoLists(4);
+        MergeTwoLists list2 = new MergeTwoLists(1);
+        list2.next = new MergeTwoLists(3);
+        list2.next.next = new MergeTwoLists(4);
+        MergeTwoLists mergedHead = mergeTwoLists(list1, list2);
         printList(mergedHead);
     }
 }
