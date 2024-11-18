@@ -27,3 +27,6 @@ class Solution {
         return left;
     }
 }
+
+// TC: O(nlogn)
+// SC: O(n)
