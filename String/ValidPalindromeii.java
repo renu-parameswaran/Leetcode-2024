@@ -23,7 +23,7 @@ class Solution {
     }
 
     public static void main(String[] args){
-        Solution s = new Solution();
+        findTheCelebrity s = new findTheCelebrity();
         String st = "abca";
         boolean result = s.validPalindrome(st);
         System.out.println(result);
