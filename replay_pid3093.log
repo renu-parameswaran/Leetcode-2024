@@ -1,0 +1,37 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 1
+JvmtiExport can_post_on_exceptions 0
+# 277 ciObject found
+instanceKlass org/eclipse/jdt/internal/compiler/classfmt/ClassFileReader
+ciMethod java/lang/Object <init> ()V 1024 0 1394783 0 128
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 256 0 128 0 -1
+ciMethod java/lang/ref/Reference get ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/ref/Reference refersTo (Ljava/lang/Object;)Z 512 0 24741 0 96
+ciMethod java/lang/ref/Reference refersToImpl (Ljava/lang/Object;)Z 512 0 12249 0 96
+ciMethod java/lang/ref/Reference refersTo0 (Ljava/lang/Object;)Z 256 0 128 0 -1
+ciMethod java/lang/ref/SoftReference <init> (Ljava/lang/Object;)V 218 0 7689 0 -1
+ciMethod java/lang/ref/SoftReference get ()Ljava/lang/Object; 514 0 5399 0 128
+ciMethod java/lang/Thread currentThread ()Ljava/lang/Thread; 256 0 128 0 -1
+ciMethod java/lang/StringBuilder <init> ()V 170 0 101619 0 -1
+ciMethod java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder; 388 0 443334 0 -1
+ciMethod java/lang/StringBuilder append (I)Ljava/lang/StringBuilder; 54 0 3915 0 -1
+ciMethod java/lang/StringBuilder toString ()Ljava/lang/String; 288 0 139083 0 -1
+ciMethod java/lang/Math min (II)I 576 0 152112 0 -1
+ciMethod java/util/Arrays equals ([C[C)Z 524 0 425261 0 -1
+ciMethod java/util/Arrays copyOfRange ([CII)[C 4126 0 8515 0 0
+ciMethod java/lang/ThreadLocal initialValue ()Ljava/lang/Object; 256 0 128 0 -1
+ciMethod java/lang/ThreadLocal get ()Ljava/lang/Object; 188 0 5364 0 480
+ciMethod java/lang/ThreadLocal setInitialValue ()Ljava/lang/Object; 860 0 562 0 0
+ciMethod java/lang/ThreadLocal set (Ljava/lang/Object;)V 22 0 11831 0 -1
+ciMethod java/lang/ThreadLocal getMap (Ljava/lang/Thread;)Ljava/lang/ThreadLocal$ThreadLocalMap; 512 0 8460 0 96
+ciMethod java/lang/ThreadLocal createMap (Ljava/lang/Thread;Ljava/lang/Object;)V 10 0 39 0 -1
+ciMethodData java/lang/Object <init> ()V 2 1394817 orig 80 1 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 data 4 0x0 0x9 0x1 0x0 oops 0 methods 0
+ciMethod java/lang/IllegalArgumentException <init> (Ljava/lang/String;)V 0 0 38 0 -1
+ciMethod jdk/internal/misc/TerminatingThreadLocal register (Ljdk/internal/misc/TerminatingThreadLocal;)V 56 0 54 0 -1
+ciMethod java/lang/ThreadLocal$ThreadLocalMap nextIndex (II)I 164 0 2135 0 0
+ciMethod java/lang/ThreadLocal$ThreadLocalMap getEntry (Ljava/lang/ThreadLocal;)Ljava/lang/ThreadLocal$ThreadLocalMap$Entry; 442 0 5354 0 416
+ciMethod java/lang/ThreadLocal$ThreadLocalMap getEntryAfterMiss (Ljava/lang/ThreadLocal;ILjava/lang/ThreadLocal$ThreadLocalMap$Entry;)Ljava/lang/ThreadLocal$ThreadLocalMap$Entry; 22 0 405 0 0
+ciMethod java/lang/ThreadLocal$ThreadLocalMap set (Ljava/lang/ThreadLocal;Ljava/lang/Object;)V 512 0 6860 0 -1
+ciMethod java/lang/ThreadLocal$ThreadLocalMap expungeStaleEntry (I)I 18 2 230 0 0
+ciMethodData java/lang/ref/SoftReference get ()Ljava/lang/Object; 2 5399 orig 80 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 data 19 0x10002 0x1416 0x60007 0x1 0x40 0x1415 0x110007 0x1211 0x20 0x204 0x0 0x0 0x0 0x0 0x0 0x0 0x9 0x1 0x0 oops 0 methods 0
+ciMethodData java/lang/ref/Reference refersTo (Ljava/lang/Object;)Z 2 24742 orig 80 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 data 17 0x20005 0x2047 0x0 0x7fdf92c6e010 0x318e 0x7fdf92811180 0xdd2 0x0 0x0 0x0 0x0 0x0 0x0 0x9 0x2 0xffffffffffffffff 0xffffffffffffffff oops 2
